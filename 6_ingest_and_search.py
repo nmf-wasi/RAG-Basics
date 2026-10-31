@@ -11,7 +11,7 @@ collection = client.get_or_create_collection("notes")
 text = Path("notes.txt").read_text(
     encoding="utf-8"
 )  # reads the whole file into one string.
-splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=40)
+splitter = RecursiveCharacterTextSplitter(chunk_size=200, chunk_overlap=40)
 chunks = splitter.split_text(text)
 
 print(f"chunks : {len(chunks)}")
