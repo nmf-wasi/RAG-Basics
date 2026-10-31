@@ -1,0 +1,48 @@
+DOCUMENT: Machine Learning Introduction
+
+SECTION: Overview and Definitions
+Artificial Intelligence (AI): The study of making computers perform tasks that humans are currently better at doing.
+Machine Learning (ML): The science of getting computers to learn and act without being explicitly programmed by feeding them data and information.
+Data Hierarchy: Data leads to Information, which leads to Knowledge, Insight, Wisdom, and Impact.
+
+SECTION: Fundamental Concepts
+Traditional Programming Paradigm: Data plus Program yields Computer Output.
+Machine Learning Paradigm: Data plus Output yields Computer Program.
+Gardening Analogy: Seeds represent Algorithms. Nutrients represent Data. The Gardener represents the Data Scientist. Plants represent Trained Models.
+
+SECTION: ML Workflow Steps
+Step 1: Objective Definition
+Step 2: Data Collection
+Step 3: Data Preparation
+Step 4: Algorithm Selection
+Step 5: Model Training
+Step 6: Model Testing
+Step 7: Prediction
+Step 8: Deployment
+
+SECTION: Core Components of ML Algorithms
+Representation: How the model represents knowledge, such as Decision Trees, Neural Networks, Support Vector Machines, or Graphical Models.
+Evaluation: How the model measures performance or error, such as Accuracy, Precision, Recall, Squared Error, Entropy, or Margin.
+Optimization: How the model searches for optimal parameters, such as Gradient Descent, Greedy Search, or Linear Programming.
+
+SECTION: Machine Learning Mathematical Framework
+Equation: y = f(x)
+Variable x: Input feature representation, such as an image feature.
+Variable f: Prediction function.
+Variable y: Output target.
+Training Set: Labeled examples used to estimate prediction function f by minimizing prediction error.
+Validation Set: Dataset used to tune hyper-parameters.
+Test Set: Unseen examples used to evaluate generalization performance.
+
+SECTION: Reasons to Use Machine Learning
+Scenario 1: Human expertise does not exist, such as autonomous navigation on Mars.
+Scenario 2: Humans cannot explain their expertise explicitly, such as speech recognition.
+Scenario 3: The optimal solution changes over time, such as network routing.
+Scenario 4: Solutions need adaptation to specific cases, such as personal biometrics.
+
+SECTION: Common Tasks and Applications
+Classification: Predicting discrete categories, such as spam detection or credit scoring.
+Regression: Predicting continuous numeric quantities.
+Clustering: Discovering hidden structures in unlabeled data without target labels.
+Anomaly Detection: Identifying irregular patterns or fraudulent transactions.
+Association Learning: Market-basket analysis to compute conditional probabilities P(Y given X), such as P(chips given beer) equals 0.7.
